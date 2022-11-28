@@ -1,0 +1,14 @@
+logger:
+  name: schleppe_ups_consumption
+  ch_level: INFO
+
+modbus:
+  host:
+  port:
+
+elastic:
+  host:
+  port:
+  ssl:
+  apiKey:
+
