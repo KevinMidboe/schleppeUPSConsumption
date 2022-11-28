@@ -5,8 +5,8 @@ Pulls UPS power draw over ModBus and logs to ElasticSearch.
 ## Install
 Download repo:
 
-```
-bash git clone https://github.com/kevinmidboe/schleppeUPSConsumption
+```bash
+git clone https://github.com/kevinmidboe/schleppeUPSConsumption
 cd schleppeUPSConsumption
 ```
 

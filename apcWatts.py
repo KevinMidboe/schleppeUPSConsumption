@@ -8,7 +8,7 @@ from logger import logger
 config = getConfig()
 host = config['modbus']['host']
 port = config['modbus']['port']
-c = ModbusClient(host=host port=port, unit_id=1, auto_open=True)
+c = ModbusClient(host=host, port=port, unit_id=1, auto_open=True)
 
 def getAmps():
   amps = c.read_holding_registers(140, 1)
